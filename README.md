@@ -5,9 +5,8 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
 <details>
 <summary> :computer: Check out what I've been coding on</summary>
 <br />
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vancepope&layout=compact&hide=css,html&theme=react)
 
-![Top Languages](https://github-readme-stats.vercel.app/api?username=vancepope&theme=react&show_icons=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vancepope&theme=react&show_icons=true)
 
 ## My Projects
 
