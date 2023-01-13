@@ -142,7 +142,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                     <img src="/images/createroom.png" alt="Query for room route">
                 - Inserts room to the rooms table
                     - Returns room id
-                    <img src="/images/insertroombyid.png" alt="Query for room route">
+                    <img src="/images/roomreturnid.png" alt="Query for room route">
                 - Returns JSON object notifying the user that the room has been created and an HTTP response code of 201
             <img src="/images/room.png" alt="Code for room route">
 
@@ -159,7 +159,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
         - '/api/room/<int:room_id>'
             - Grabs the id variable from the http path
             - Selects the room by id
-                <img src="/images/insertroombyid.png" alt="Query for room by id route">
+                <img src="/images/selectroom.png" alt="Query for room by id route">
             - Returns the room and response code of 200
             <img src="/images/roombyid.png" alt="Code for room by id route">
         
