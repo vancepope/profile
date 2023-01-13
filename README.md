@@ -19,7 +19,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     - Logs to a log file using the python logging module
         - Classes
             - Card
-            - Beck
+            - Deck
             - Hand
             - BlackJack
             - TestCard
@@ -33,7 +33,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                         - Used to display the cards to user for the player and deaker
                     - __str__
                         - Displays the cards in a string format
-                    <img src="/images/card.png" height="%50" width="%50" alt="Code for Card class">
+                    <img src="/images/card.png" height="400" alt="Code for Card class">
 
             - Deck
                 - Inherits cards, suits and values lists from Card
