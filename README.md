@@ -2,10 +2,6 @@
 
 My name is Vance, I am now a Software Testing Engineer at _nology. I have worked in the industry as a Web Developer for Berkshire Hathaway HomeServices California Properties. When I'm not coding, I am usually playing video games (currently Pokémon Violet).
 
-<details>
-<summary> :computer: Check out what I've been coding on</summary>
-<br />
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vancepope&theme=react&show_icons=true&hide=css,html)
 
 ## :pushpin: My Projects
@@ -136,7 +132,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <details>
     <summary>Details</summary>
     <br />
-    
+
     - Routes
         - '/'
             - Returns a string of 'Hello Monty'
@@ -182,4 +178,3 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             - Displays a tic-tac-toe game built using HTML, CSS Grid, and JavaScript
             - Calls the render_template method from Flask to render grid.html
     </details>
-</details>
