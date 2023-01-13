@@ -20,7 +20,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <br />
     <details>
     <summary>Details</summary>
-
+    <br />
     - Classes
         - Card
         - Deck
@@ -134,7 +134,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <br />
     <details>
     <summary>Details</summary>
-
+    <br />
     - Routes
         - '/'
             - Returns a string of 'Hello Monty'
