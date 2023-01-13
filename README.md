@@ -17,15 +17,19 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     - Utilizes Object Oriented Programming (OOP) methodologies
     - Uses Flask for testing class methods
     - Logs to a log file using the python logging module
-        - Classes
-            - Card
-            - Deck
-            - Hand
-            - BlackJack
-            - TestCard
-            - TestDeck
-            - TestHand
-            - TestBlackJack
+    <details>
+    <summary>Details</summary>
+
+    - Classes
+        - Card
+        - Deck
+        - Hand
+        - BlackJack
+        - TestCard
+        - TestDeck
+        - TestHand
+        - TestBlackJack
+
         - Methods
             - Card
                 - Methods
@@ -117,6 +121,8 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                     - test_is_playing
                         - Instantiates the BlackJack class, calls the setter for isPlaying and asserts that they match.
                     ![Code for Test Black Jack class](/images/testblackjack.png "Code for Test Card class")
+    </details>
+        
 
 
 2. <a href="https://github.com/vancepope/hello_flask" target="_blank">APIs w/ Flask</a>
@@ -124,6 +130,9 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
         - Code snippets have been provided below for each section
     - FlaskAPI application that utilizes ElephantSQL 
     - Builds an API for rooms, room temperatures, and a tic-tac-toe game
+    <details>
+    <summary>Details</summary>
+
     - Routes
         - '/'
             - Returns a string of 'Hello Monty'
@@ -168,4 +177,5 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
         - '/api/tictactoe'
             - Displays a tic-tac-toe game built using HTML, CSS Grid, and JavaScript
             - Calls the render_template method from Flask to render grid.html
+    </details>
 </details>
