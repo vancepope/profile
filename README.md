@@ -150,17 +150,19 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
         - '/api/room/<int:room_id>'
             - Grabs the id variable from the http path
             - Selects the room by id
-                <img src="/images/roombyid.png" alt="Query for room by id route">
+                <img src="/images/insertroombyid.png" alt="Query for room by id route">
             - Returns the room and response code of 200
+            <img src="/images/roombyid.png" alt="Code for room by id route">
         
         - '/api/avg_temp'
             - Queries the database for the average temperature
-                <img src="/images/avgtemp.png" alt="Query for avg temp route">
+                <img src="/images/avgtempquery.png" alt="Query for avg temp route">
             - Returns JSON object containing average temperature and response code of 200
+            <img src="/images/avgtemp.png" alt="Code for avg temp route">
 
         - '/api/day_count'
             - Queries the database for the number of days
-                <img src="/images/room.png" alt="Query for number of days route">
+                <img src="/images/numdays.png" alt="Query for number of days route">
             - Returns JSON object containing the number of days and response code of 200
         
         - '/api/tictactoe'
