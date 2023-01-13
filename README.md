@@ -85,7 +85,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                             - If the value is ≤ 21, a while loop will start until the value ≥ 17
                         - Uses condition statements to decide who the winner is of each game
                         - Prompts the user if they would like to play another game.
-                    <img src="/images/blackjack1.png" height="758" alt="Code for Black Jack class">
+                    <img src="/images/blackjack1.png" height="907" alt="Code for Black Jack class">
                     <img src="/images/blackjack2.png" height="758" alt="Code for Black Jack class Part 2">
 
             - TestCard
