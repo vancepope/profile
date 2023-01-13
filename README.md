@@ -120,5 +120,50 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
 
 
 2. <a href="https://github.com/vancepope/hello_flask" target="_blank">APIs w/ Flask</a>
+    - Please click the link to see operational photos of the application
+        - Code snippets have been provided below for each section
     - FlaskAPI application that utilizes ElephantSQL 
+    - Builds an API for rooms, room temperatures, and a tic-tac-toe game
+    - Routes
+        - '/'
+            - Returns a string of 'Hello Monty'
+        - '/api/room'
+            - Grabs the name variable from a JSON object
+                - Creates room table if it doesn't exist
+                    <img src="/images/createroom.png" alt="Query for room route">
+                - Inserts room to the rooms table
+                    - Returns room id
+                    <img src="/images/insertroombyid.png" alt="Query for room route">
+                - Returns JSON object notifying the user that the room has been created and an HTTP response code of 201
+            <img src="/images/room.png" alt="Code for room route">
+
+        - '/api/temperature'
+            - Grabs the temperature and room id, and datetime from a JSON object
+                - If datetime isn't provided in the object, the datetime.now method will be called
+            - Creates temperature table if it doesn't exist
+                <img src="/images/createtemp.png" alt="Query for temp route">
+            - Inserts room id, temperature, and date
+                <img src="/images/inserttemp.png" alt="Query for temp route">
+            - Returns message notifying the user that the temperature was added and a response code of 201
+            <img src="/images/temperature.png" alt="Query for temperature route">
+
+        - '/api/room/<int:room_id>'
+            - Grabs the id variable from the http path
+            - Selects the room by id
+                <img src="/images/roombyid.png" alt="Query for room by id route">
+            - Returns the room and response code of 200
+        
+        - '/api/avg_temp'
+            - Queries the database for the average temperature
+                <img src="/images/avgtemp.png" alt="Query for avg temp route">
+            - Returns JSON object containing average temperature and response code of 200
+
+        - '/api/day_count'
+            - Queries the database for the number of days
+                <img src="/images/room.png" alt="Query for number of days route">
+            - Returns JSON object containing the number of days and response code of 200
+        
+        - '/api/tictactoe'
+            - Displays a tic-tac-toe game built using HTML, CSS Grid, and JavaScript
+            - Calls the render_template method from Flask to render grid.html
 </details>
