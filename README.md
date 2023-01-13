@@ -28,12 +28,12 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             - TestBlackJack
         - Methods
             - Card
-                - __repr__
-                    - Used to display the cards to user for the player and deaker
-                - __str__
-                    - Displays the cards in a string format
-                - Code
-                    ![Code for Card class](/images/card.png "Code for Card class")
+                - Methods
+                    - __repr__
+                        - Used to display the cards to user for the player and deaker
+                    - __str__
+                        - Displays the cards in a string format
+                    <img src="/images/card.png" height="%50" width="%50" alt="Code for Card class">
 
             - Deck
                 - Inherits cards, suits and values lists from Card
@@ -50,8 +50,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                         - Uses the random class to shuffle the deck.
                     - deal
                         - deals the deck to the player and returns a Card
-                - Code
-                    ![Code for Deck class](/images/deck.png "Code for Deck class")
+                    <img src="/images/deck.png" height="%50" width="%50" alt="Code for Deck class">
 
             - Hand
                 - Inherits the deck list and the values list from Deck
@@ -60,8 +59,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                         - Adds a Card to the hand list
                     - ace
                         - Keeps track of aces and assigns an ace the value of 1 or 11 if there is an ace and the value is greater than 21
-                - Code
-                    ![Code for Hand class](/images/hand.png "Code for Hand class")
+                    <img src="/images/hand.png" height="%50" width="%50" alt="Code for Hand class">
 
             - BlackJack
                - This is the main class
@@ -87,9 +85,8 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                             - If the value is ≤ 21, a while loop will start until the value ≥ 17
                         - Uses condition statements to decide who the winner is of each game
                         - Prompts the user if they would like to play another game.
-                - Code
-                    ![Code for Black Jack class](/images/blackjack1.png "Code for Black Jack class")
-                    ![Code for Black Jack class Part 2](/images/blackjack2.png "Code for Black Jack class Part 2")
+                    <img src="/images/blackjack1.png" height="%50" width="%50" alt="Code for Black Jack class">
+                    <img src="/images/blackjack2.png" height="%50" width="%50" alt="Code for Black Jack class Part 2">
 
             - TestCard
                 - Test Methods
