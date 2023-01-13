@@ -92,7 +92,6 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                 - Test Methods
                     - test___repr__
                         - Uses the Mock functionality to mock the __repr__ method and make sure that the values of '10' and 'Diamonds' are represented like '10 of Diamonds'
-                - Code
                     ![Code for Test Card class](/images/testcard.png "Code for Test Card class")
 
             - TestDeck
@@ -104,13 +103,11 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                         - Mocks the create_deck method and ensures the results are the same
                     - test_deal 
                         - Mocks the deal method and ensures the new card is of type Card and that the string is printed as 'Ace of Diamonds'
-                - Code
                     ![Code for Test Deck class](/images/testdeck.png "Code for Test Deck class")
             - TestHand
                 - Test Methods
                     - test_add_card
                         - Mocks the addCard method and ensure a list is returned with the length of 1, that it is of type Card, and is printed as 'Ace of Diamonds'
-                - Code
                     ![Code for Test Hand class](/images/testhand.png "Code for Test Hand class")
 
             - TestBlackJack
@@ -119,7 +116,6 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                         - Mocks the hitStay method and ensures that it return a string of 'hit'
                     - test_is_playing
                         - Instantiates the BlackJack class, calls the setter for isPlaying and asserts that they match.
-                - Code
                     ![Code for Test Black Jack class](/images/testblackjack.png "Code for Test Card class")
 
 
