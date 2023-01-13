@@ -17,7 +17,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     - Utilizes Object Oriented Programming (OOP) methodologies
     - Uses Flask for testing class methods
     - Logs to a log file using the python logging module
-    
+    <br />
     <details>
     <summary>Details</summary>
 
@@ -131,7 +131,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
         - Code snippets have been provided below for each section
     - FlaskAPI application that utilizes ElephantSQL 
     - Builds an API for rooms, room temperatures, and a tic-tac-toe game
-
+    <br />
     <details>
     <summary>Details</summary>
 
