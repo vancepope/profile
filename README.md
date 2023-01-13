@@ -11,10 +11,12 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
 ## :pushpin: My Projects
 
 1. <a href="https://github.com/vancepope/blackjack" target="_blank">Black Jack</a>
+    - Please click the link to see operational photos of the application
+        - Code snippets have been provided below for each section
     - Black Jack console application built in Python
     - Utilizes Object Oriented Programming (OOP) methodologies
     - Uses Flask for testing class methods
-    - Logs to a log file
+    - Logs to a log file using the python logging module
         - Classes
             - Card
             - Beck
@@ -30,6 +32,9 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                     - Used to display the cards to user for the player and deaker
                 - __str__
                     - Displays the cards in a string format
+                - Code
+                    ![Code for Card class](/images/card.png "Code for Card class")
+
             - Deck
                 - Inherits cards, suits and values lists from Card
                 - Methods
@@ -45,6 +50,9 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                         - Uses the random class to shuffle the deck.
                     - deal
                         - deals the deck to the player and returns a Card
+                - Code
+                    ![Code for Deck class](/images/deck.png "Code for Deck class")
+
             - Hand
                 - Inherits the deck list and the values list from Deck
                 - Methods
@@ -52,6 +60,9 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                         - Adds a Card to the hand list
                     - ace
                         - Keeps track of aces and assigns an ace the value of 1 or 11 if there is an ace and the value is greater than 21
+                - Code
+                    ![Code for Hand class](/images/hand.png "Code for Hand class")
+
             - BlackJack
                - This is the main class
                - Getters and Setters
@@ -76,10 +87,17 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                             - If the value is ≤ 21, a while loop will start until the value ≥ 17
                         - Uses condition statements to decide who the winner is of each game
                         - Prompts the user if they would like to play another game.
+                - Code
+                    ![Code for Black Jack class](/images/blackjack1.png "Code for Black Jack class")
+                    ![Code for Black Jack class Part 2](/images/blackjack2.png "Code for Black Jack class Part 2")
+
             - TestCard
                 - Test Methods
                     - test___repr__
                         - Uses the Mock functionality to mock the __repr__ method and make sure that the values of '10' and 'Diamonds' are represented like '10 of Diamonds'
+                - Code
+                    ![Code for Test Card class](/images/testcard.png "Code for Test Card class")
+
             - TestDeck
                 - Fixtures
                     - create_deck
@@ -89,12 +107,23 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
                         - Mocks the create_deck method and ensures the results are the same
                     - test_deal 
                         - Mocks the deal method and ensures the new card is of type Card and that the string is printed as 'Ace of Diamonds'
+                - Code
+                    ![Code for Test Deck class](/images/testdeck.png "Code for Test Deck class")
             - TestHand
                 - Test Methods
                     - test_add_card
                         - Mocks the addCard method and ensure a list is returned with the length of 1, that it is of type Card, and is printed as 'Ace of Diamonds'
+                - Code
+                    ![Code for Test Hand class](/images/testhand.png "Code for Test Hand class")
 
-
+            - TestBlackJack
+                - Test Methods
+                    - test_hit_stay
+                        - Mocks the hitStay method and ensures that it return a string of 'hit'
+                    - test_is_playing
+                        - Instantiates the BlackJack class, calls the setter for isPlaying and asserts that they match.
+                - Code
+                    ![Code for Test Black Jack class](/images/testblackjack.png "Code for Test Card class")
 
 
 2. <a href="https://github.com/vancepope/hello_flask" target="_blank">APIs w/ Flask</a>
