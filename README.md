@@ -12,7 +12,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
 
 1. <a href="https://github.com/vancepope/blackjack" target="_blank">Black Jack</a>
     - Please click the link to see operational photos of the application
-        - Code snippets have been provided below for each section
+        - Code snippets have been provided below in the Details section
     - Black Jack console application built in Python
     - Utilizes Object Oriented Programming (OOP) methodologies
     - Uses Flask for testing class methods
@@ -128,7 +128,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
 
 2. <a href="https://github.com/vancepope/hello_flask" target="_blank">APIs w/ Flask</a>
     - Please click the link to see operational photos of the application
-        - Code snippets have been provided below for each section
+        - Code snippets have been provided below in the Details section
     - FlaskAPI application that utilizes ElephantSQL 
     - Builds an API for rooms, room temperatures, and a tic-tac-toe game
     <br />
