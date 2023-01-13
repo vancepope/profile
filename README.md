@@ -12,7 +12,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
 
 1. <a href="https://github.com/vancepope/blackjack" target="_blank">Black Jack</a>
     - Black Jack console application built in Python
-    - Utilizes Object Oriented Programming (OOP)methodologies
+    - Utilizes Object Oriented Programming (OOP) methodologies
     - Uses Flask for testing class methods
     - Logs to a log file
         - Classes
