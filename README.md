@@ -178,3 +178,123 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             - Displays a tic-tac-toe game built using HTML, CSS Grid, and JavaScript
             - Calls the render_template method from Flask to render grid.html
     </details>
+
+3. <a href="https://github.com/vancepope/zoo_flask" target="_blank">Zoo Flask</a>
+    - Please click the link to see operational photos of the application and test plan
+        - Code snippets have been provided below in the Details section
+    - Logs HTTP response and application info to a log file using the python logging module
+    - Utilizes Test Driven Development (TDD) to build an API for creating enclosures for different animals
+    <br />
+    <details>
+    <summary>Details</summary>
+    <br />
+
+    - Methods
+        - create_enclsures
+            - Receives group_name and dupe_name from JSON object
+            - Creates Enclosure table if it doesn't exist
+                <img src="/images/querycreateenclosure.png" alt="Create Enclosure Table">
+            - Inserts group_name into the Enclosures table if a dupe_name doesn't exist
+                <img src="/images/queryinsertenclosure.png" alt="Add Enclosure">
+            - Returns JSON object notifying the user that the enclosure was created
+            <img src="/images/codecreateenclosure.png" alt="Create Enclosure Code">
+
+        - create_animals
+            - Receives name, quantity, enclosure_id and dupe from JSON object
+            - Creates Animals table if it doesn't exist
+                <img src="/images/querycreateanimals.png" alt="Create Animals Table">
+            - Inserts name, quantity, enclosure_id into the Animals table if a dupe_name doesn't exist
+                <img src="/images/queryinsertanimal.png" alt="Add Animal">
+            - Returns JSON object notifying the user that the enclosure was created
+            <img src="/images/codecreateanimals.png" alt="Create Animals Code">
+
+        - get_animal
+            - Receives id from HTTP path
+            - Selects the correct animal by id
+                <img src="/images/queryselectanimalbyid.png" alt="Get Animal">
+            - Returns JSON object to the client side
+            <img src="/images/codegetanimal.png" alt="Get Animal Code">   
+
+        - get_enclosure
+            - Receives enclosure_id from HTTP path
+            - Selects the correct enclosure by enclosure_id
+                <img src="/images/queryselectenclosurebyid.png" alt="Get Enclosure">
+            - Returns JSON object to the client side
+            <img src="/images/codegetenclosure.png" alt="Create Animals Code">
+
+        - get_animals
+            - Selects all animals within the Animals table
+                <img src="/images/queryselectanimals.png" alt="Get All Animals">
+            - Appends the result to a data list of JSON objects
+            - Returns the data list to the client side
+            <img src="/images/codegetanimals.png" alt="Get Animals Code">
+
+        - get_enclosures
+            - Selects all enclosure within the Enclosures table
+                <img src="/images/queryselectenclosures.png" alt="Get All Enclosures">
+            - Appends the result to a data list of JSON objects
+            - Returns the data list to the client side
+            <img src="/images/codegetanimals.png" alt="Get Animals Code">
+
+        - add_enclosure
+            - Receives name and dupe from HTTP Body
+            - Insert name into Enclosures if it doesn't exist
+                <img src="/images/queryinsertenclosure.png" alt="Add Enclosure">
+            - Returns a JSON object notifying the user that the enclosure has been created
+            <img src="/images/codeaddenclosure.png" alt="Add Enclosure Code">
+
+        - add_animal
+            - Receives group_name and dupe_name from HTTP Body
+            - Insert name into Animals if it doesn't exist
+                <img src="/images/queryinsertanimal.png" alt="Add Animal">
+            - Returns a JSON object notifying the user that the enclosure has been created
+            <img src="/images/codeaddanimal.png" alt="Add Animal Code">
+
+        - display animals
+            - Executes an inner join on enclosures and animals
+                <img src="/images/querydisplayanimals.png" alt="Display Animal">
+            - Appends the result to a data list of JSON objects
+            - Returns data list to the client side
+            <img src="/images/codedisplayanimals.png" alt="Display Animals Code">
+
+    - Test Methods
+        - test_connection
+            - Uses fixture called connection to create Enclosures table if it doesn't exist
+            - Inserts enclosure based on the sample date provided within the fixture if it doesn't exist
+            - Prints and logs the expected output and actual output
+            - Asserts that the length of the result > 0
+            <img src="testconnection.png" alt="Test Connection">
+
+        - test_create_animals
+            - Uses fixture called create_animals to create Animals table if it doesn't exist
+            - Prints and logs the expected output and actual output
+            - Asserts that the length of the result > 0
+            <img src="testcreateanimals.png" alt="Test Create Animals">
+
+        - test_create_enclosures
+            - Uses fixture called create_enclosures to create Enclosures table if it doesn't exist
+            - Prints and logs the expected output and actual output
+            - Asserts that the length of the result > 0
+            <img src="testcreateenclosures.png" alt="Test Create Enclosures">
+
+        - test_add_enclosure
+            - Uses fixture called add_enclosure to insert an enclosure based on the data provided if the enclosure doesn't already exist
+            - Selects enclosures from the enclosure tables
+            - Prints and logs the expected output and actual output
+            - Asserts that the length of the result < 1
+            <img src="testaddenclosure.png" alt="Test Add Enclosure">
+
+        - test_add_animal
+            - Uses fixture called add_animal to insert an animal based on the data provided if the animal doesn't already exist
+            - Selects enclosures from the animals tables
+            - Prints and logs the expected output and actual output
+            - Asserts that the length of the result < 1
+            <img src="testaddanimal.png" alt="Test Add Animal">
+
+        - test_display_animals
+            - Executes a inner join on the Enclosure and Animals tables
+            - Appends the results to a data list of JSON objects
+            - Asserts that the data > 0 and the type is list
+            - Prints and logs the expected output and actual output
+            <img src="testdisplayanimals.png" alt="Test Display Animals">
+    </details>
