@@ -193,7 +193,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
         - create_enclsures
             - Receives group_name and dupe_name from JSON object
             - Creates Enclosure table if it doesn't exist
-                <img src="/images/querycreateenclosure.png" alt="Create Enclosure Table">
+                <img src="/images/querycreateenclosures.png" alt="Create Enclosure Table">
             - Inserts group_name into the Enclosures table if a dupe_name doesn't exist
                 <img src="/images/queryinsertenclosure.png" alt="Add Enclosure">
             - Returns JSON object notifying the user that the enclosure was created
@@ -218,7 +218,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
         - get_enclosure
             - Receives enclosure_id from HTTP path
             - Selects the correct enclosure by enclosure_id
-                <img src="/images/queryselectenclosurebyid.png" alt="Get Enclosure">
+                <img src="/images/queryselectenclosuresbyid.png" alt="Get Enclosure">
             - Returns JSON object to the client side
             <img src="/images/codegetenclosure.png" alt="Create Animals Code">
 
@@ -263,38 +263,38 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             - Inserts enclosure based on the sample date provided within the fixture if it doesn't exist
             - Prints and logs the expected output and actual output
             - Asserts that the length of the result > 0
-            <img src="testconnection.png" alt="Test Connection">
+            <img src="/images/testconnection.png" alt="Test Connection">
 
         - test_create_animals
             - Uses fixture called create_animals to create Animals table if it doesn't exist
             - Prints and logs the expected output and actual output
             - Asserts that the length of the result > 0
-            <img src="testcreateanimals.png" alt="Test Create Animals">
+            <img src="/images/testcreateanimals.png" alt="Test Create Animals">
 
         - test_create_enclosures
             - Uses fixture called create_enclosures to create Enclosures table if it doesn't exist
             - Prints and logs the expected output and actual output
             - Asserts that the length of the result > 0
-            <img src="testcreateenclosures.png" alt="Test Create Enclosures">
+            <img src="/images/testcreateenclosures.png" alt="Test Create Enclosures">
 
         - test_add_enclosure
             - Uses fixture called add_enclosure to insert an enclosure based on the data provided if the enclosure doesn't already exist
             - Selects enclosures from the enclosure tables
             - Prints and logs the expected output and actual output
             - Asserts that the length of the result < 1
-            <img src="testaddenclosure.png" alt="Test Add Enclosure">
+            <img src="/images/testaddenclosure.png" alt="Test Add Enclosure">
 
         - test_add_animal
             - Uses fixture called add_animal to insert an animal based on the data provided if the animal doesn't already exist
             - Selects enclosures from the animals tables
             - Prints and logs the expected output and actual output
             - Asserts that the length of the result < 1
-            <img src="testaddanimal.png" alt="Test Add Animal">
+            <img src="/images/testaddanimal.png" alt="Test Add Animal">
 
         - test_display_animals
             - Executes a inner join on the Enclosure and Animals tables
             - Appends the results to a data list of JSON objects
             - Asserts that the data > 0 and the type is list
             - Prints and logs the expected output and actual output
-            <img src="testdisplayanimals.png" alt="Test Display Animals">
+            <img src="/images/testdisplayanimals.png" alt="Test Display Animals">
     </details>
