@@ -191,7 +191,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
 
     - Methods
         - create_enclsures
-            - Receives group_name and dupe_name from JSON object
+            - Receives group_name from JSON object
             - Creates Enclosure table if it doesn't exist
                 <img src="/images/querycreateenclosures.png" alt="Create Enclosure Table">
             - Inserts group_name into the Enclosures table if a group_name doesn't exist
@@ -200,7 +200,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             <img src="/images/codecreateenclosure.png" alt="Create Enclosure Code">
 
         - create_animals
-            - Receives name, quantity, enclosure_id and dupe from JSON object
+            - Receives name, quantity, enclosure_id from JSON object
             - Creates Animals table if it doesn't exist
                 <img src="/images/querycreateanimals.png" alt="Create Animals Table">
             - Inserts name, quantity, enclosure_id into the Animals table if a name doesn't exist
@@ -237,14 +237,14 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             <img src="/images/codegetanimals.png" alt="Get Animals Code">
 
         - add_enclosure
-            - Receives name and dupe from HTTP Body
+            - Receives group_name from HTTP Body
             - Insert name into Enclosures if it doesn't exist
                 <img src="/images/insertenclosure.png" alt="Add Enclosure">
             - Returns a JSON object notifying the user that the enclosure has been created
             <img src="/images/codeaddenclosure.png" alt="Add Enclosure Code">
 
         - add_animal
-            - Receives group_name and dupe_name from HTTP Body
+            - Receives name from HTTP Body
             - Insert name into Animals if it doesn't exist
                 <img src="/images/queryinsertanimal.png" alt="Add Animal">
             - Returns a JSON object notifying the user that the enclosure has been created
