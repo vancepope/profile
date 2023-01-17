@@ -194,8 +194,8 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             - Receives group_name and dupe_name from JSON object
             - Creates Enclosure table if it doesn't exist
                 <img src="/images/querycreateenclosures.png" alt="Create Enclosure Table">
-            - Inserts group_name into the Enclosures table if a dupe_name doesn't exist
-                <img src="/images/queryinsertenclosure.png" alt="Add Enclosure">
+            - Inserts group_name into the Enclosures table if a group_name doesn't exist
+                <img src="/images/insertenclosure.png" alt="Add Enclosure">
             - Returns JSON object notifying the user that the enclosure was created
             <img src="/images/codecreateenclosure.png" alt="Create Enclosure Code">
 
@@ -203,7 +203,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             - Receives name, quantity, enclosure_id and dupe from JSON object
             - Creates Animals table if it doesn't exist
                 <img src="/images/querycreateanimals.png" alt="Create Animals Table">
-            - Inserts name, quantity, enclosure_id into the Animals table if a dupe_name doesn't exist
+            - Inserts name, quantity, enclosure_id into the Animals table if a name doesn't exist
                 <img src="/images/queryinsertanimal.png" alt="Add Animal">
             - Returns JSON object notifying the user that the enclosure was created
             <img src="/images/codecreateanimals.png" alt="Create Animals Code">
@@ -239,7 +239,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
         - add_enclosure
             - Receives name and dupe from HTTP Body
             - Insert name into Enclosures if it doesn't exist
-                <img src="/images/queryinsertenclosure.png" alt="Add Enclosure">
+                <img src="/images/insertenclosure.png" alt="Add Enclosure">
             - Returns a JSON object notifying the user that the enclosure has been created
             <img src="/images/codeaddenclosure.png" alt="Add Enclosure Code">
 
