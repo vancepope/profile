@@ -420,33 +420,33 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             - Asserts that the response from the mocked find_one method that the return_value has a length > 0
             - Asserts that a returncode of 200 was received
             - Prints Expected and Actual output
-            <img src="/images/test-find-one.png" alt="Test Find One">
+            <img src="/images/test-get-part.png" alt="Test Find One">
 
         - test_get_part_fail
             - Asserts that the response from the mocked find_one method that the return_value has an Item not found error
             - Asserts that a returncode of 404 was received
             - Prints Expected and Actual output
-            <img src="/images/test-find-one-fail.png" alt="Test Find One Fail">
+            <img src="/images/test-get-part-fail.png" alt="Test Find One Fail">
 
         - test_update_one
             - Asserts that the response from the mocked update_one method that the return_value has a Success status
             - Asserts that a returncode of 200 was received
-            <img src="/images/test-update-one.png" alt="Test Update One">
+            <img src="/images/test-update-part.png" alt="Test Update One">
 
         - test_update_one_fail
             - Asserts that the response from the mocked update_one method that the return_value has an Item not found error
             - Asserts that a returncode of 404 was received
             - Prints Expected and Actual output
-            <img src="/images/test-update-one-fail.png" alt="Test Update One Fail">
+            <img src="/images/test-update-part-fail.png" alt="Test Update One Fail">
 
         - test_delete_one
             - Asserts that the response from the mocked delete_one method that the return_value has a Success status
             - Asserts that a returncode of 200 was received
-            <img src="/images/test-delete-one.png" alt="Test Delete One">
+            <img src="/images/test-delete-part.png" alt="Test Delete One">
 
         - test_index_fail
             - Asserts that the response from the mocked delete_one method that the return_value has an Item not found error
             - Asserts that a returncode of 404 was received
             - Prints Expected and Actual output
-            <img src="/images/test-delete-one-fail.png" alt="Test Delete One Fail">
+            <img src="/images/test-delete-part-fail.png" alt="Test Delete One Fail">
     </details>
