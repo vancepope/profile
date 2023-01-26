@@ -34,7 +34,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             - Card
                 - Methods
                     - __repr__
-                        - Used to display the cards to user for the player and deaker
+                        - Used to display the cards to user for the player and dealer
                     - __str__
                         - Displays the cards in a string format
                     <img src="/images/card.png" height="400" alt="Code for Card class">
