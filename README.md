@@ -18,7 +18,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <summary>Details</summary>
     <br />
     
-    ### <strong>TL;DR</strong>: <small>Application uses classes to initialize several aspects of the game to present to the user. Upon the result of the game, the user is asked to play again if they choose. Test methods were written to provide coverage to limit defects.</small>
+    ##### **TL;DR**: _Application uses classes to initialize several aspects of the game to present to the user. Upon the result of the game, the user is asked to play again if they choose. Test methods were written to provide coverage to limit defects._
 
     - Classes
         - Card
@@ -135,8 +135,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <summary>Details</summary>
     <br />
 
-    ### <strong>TL;DR</strong>:
-    - Application creates rooms and temperatures utilizing ElephantSQL queries. Test methods were written utilizing a test database to mock data and limit defects.
+    ##### **TL;DR**: _Application creates rooms and temperatures utilizing ElephantSQL queries. Test methods were written utilizing a test database to mock data and limit defects._
 
     - Routes
         - '/'
@@ -194,8 +193,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <summary>Details</summary>
     <br />
 
-    ### <strong>TL;DR</strong>:
-    - Application builds an animal and enclosure API utilizing ElephantSQL queries. Tests have been written to test functionality and prevent defects.
+    ##### **TL;DR**: _Application builds an animal and enclosure API utilizing ElephantSQL queries. Tests have been written to test functionality and prevent defects._
 
     - Methods
         - create_enclsures
