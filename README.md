@@ -17,6 +17,9 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <details>
     <summary>Details</summary>
     <br />
+    
+    ### <strong>TL;DR</strong>:
+    - Application uses classes to initialize several aspects of the game to present to the user. Upon the result of the game, the user is asked to play again if they choose. Test methods were written to provide coverage to limit defects.
 
     - Classes
         - Card
@@ -133,6 +136,9 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <summary>Details</summary>
     <br />
 
+    ### <strong>TL;DR</strong>:
+    - Application creates rooms and temperatures utilizing ElephantSQL queries. Test methods were written utilizing a test database to mock data and limit defects.
+
     - Routes
         - '/'
             - Returns a string of 'Hello Monty'
@@ -188,6 +194,9 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <details>
     <summary>Details</summary>
     <br />
+
+    ### <strong>TL;DR</strong>:
+    - Application builds an animal and enclosure API utilizing ElephantSQL queries. Tests have been written to test functionality and prevent defects.
 
     - Methods
         - create_enclsures
@@ -292,7 +301,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
             <img src="/images/testaddanimal.png" alt="Test Add Animal">
 
         - test_display_animals
-            - Executes a inner join on the Enclosure and Animals tables
+            - Executes an inner join on the Enclosure and Animals tables
             - Appends the results to a data list of JSON objects
             - Asserts that the data > 0 and the type is list
             - Prints and logs the expected output and actual output
