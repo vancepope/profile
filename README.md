@@ -18,8 +18,7 @@ My name is Vance, I am now a Software Testing Engineer at _nology. I have worked
     <summary>Details</summary>
     <br />
     
-    ### <strong>TL;DR</strong>:
-    - Application uses classes to initialize several aspects of the game to present to the user. Upon the result of the game, the user is asked to play again if they choose. Test methods were written to provide coverage to limit defects.
+    ### <strong>TL;DR</strong>: <small>Application uses classes to initialize several aspects of the game to present to the user. Upon the result of the game, the user is asked to play again if they choose. Test methods were written to provide coverage to limit defects.</small>
 
     - Classes
         - Card
