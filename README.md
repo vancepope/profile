@@ -1,6 +1,6 @@
 ## Hi guys! :wave:
 
-My name is Vance, I am now a Software Testing Engineer at _nology. I have worked in the industry as a Web Developer for Berkshire Hathaway HomeServices California Properties. When I'm not coding, I am usually playing video games (currently Pokémon Violet).
+My name is Vance, I have worked in the industry as a Software Testing Engineer at ASML, and as a Web Developer for Berkshire Hathaway HomeServices California Properties. When I'm not coding, I am usually playing video games (currently Diablo 4).
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vancepope&theme=react&show_icons=true&hide=css,html)
 
